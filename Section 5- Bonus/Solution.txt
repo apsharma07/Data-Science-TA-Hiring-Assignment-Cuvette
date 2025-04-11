@@ -1,0 +1,5 @@
+When students are struggling with understanding concepts or managing deadlines, I focus on being approachable and supportive. I try to create a space where they feel comfortable admitting when they’re stuck, and I make sure to listen closely to what they’re finding difficult. For tough concepts, I break them down into smaller steps and use clear, everyday examples to make them easier to grasp. I’m also happy to revisit topics in different ways, whether that’s through visual aids, extra practice, or discussion.
+
+If a student is falling behind on deadlines, I help them plan and prioritize their tasks, and I remain flexible if they need extensions due to genuine challenges.
+
+When teaching something like Gradient Descent, I’d compare it to walking downhill in the fog, feeling your way to the bottom by taking small steps based on the steepness. From there, I’d slowly build up the math behind it in a clear, step-by-step way.

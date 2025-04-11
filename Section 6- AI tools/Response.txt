@@ -1,0 +1,58 @@
+Task Example: Excel Formula Generation
+
+Prompt Used:
+"Add formulas to calculate:
+- Average order value  
+- % contribution of each country to total sales  
+- Highlight top 5 countries by revenue using conditional formatting  
+- Create a chart to visualize monthly revenue trend"
+
+AI Response:
+
+Great! You’ve built a clean Pivot Table showing Total Sales by Country and Month. Now let’s complete the remaining steps:
+
+1. Average Order Value
+This metric = Total Revenue ÷ Total Number of Orders
+
+In Excel:
+Assuming:
+- Your data (not the pivot) has a column InvoiceNo (unique per order),
+- And TotalSales is already calculated,
+
+You can use:
+
+=SUM(TotalSalesColumn)/COUNTA(UNIQUE(InvoiceNoColumn))
+
+Example:
+=SUM(H2:H1000)/COUNTA(UNIQUE(A2:A1000))
+
+2. % Contribution of Each Country to Total Sales
+In a new column (next to Grand Total):
+
+=[@Grand Total] / GrandTotalValue
+
+Or:
+
+=N2/$N$42
+
+Format the column as Percentage.
+
+3. Highlight Top 5 Countries by Revenue
+Steps:
+- Select the “Grand Total” column.
+- Go to Home > Conditional Formatting > Top 10 Items…
+- Change 10 to 5, choose a highlight fill color.
+
+4. Chart for Monthly Revenue Trend
+Steps:
+- Select the row showing Grand Totals per month.
+- Go to Insert > Line or Column Chart.
+- Title it “Monthly Revenue Trend”.
+
+Reflection:
+
+What did the AI do well?
+The AI gave clear, structured, and accurate Excel steps with formulas and navigation menus tailored for pivot-based data. It even included formatting and visualization tips.
+
+What did I have to modify or improve?
+I had to manually adapt some formulas to fit my actual column ranges, and ensure the pivot fields aligned with the data structure. I also renamed the columns in my sheet to match what the AI expected.
