@@ -89,7 +89,7 @@ The AI generated a nested query using GROUP BY and subqueries to compare album s
 ## 📹 Screen Recording
 A 12-minute video has been recorded explaining all sections and walkthrough of the Jupyter Notebook, SQL queries, Tableau dashboard, and Excel analysis.
 
-📌 [Link to Video](#)
+📌 [Link to Video](https://youtu.be/DeGxTEbWZZI)
 
 ---
 
